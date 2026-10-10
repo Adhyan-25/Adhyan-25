@@ -1,4 +1,3 @@
-
 # Adhyan Negi
 
 ```text
@@ -7,46 +6,47 @@ Backend-focused developer | B.Tech student
 Interested in distributed systems, scalable APIs, and system design.
 ```
 
-I build software to understand how systems work under the hood —
-from data structures and query optimisation to caching,
-rate limiting, and distributed application architecture.
+I build projects to understand how systems behave under real constraints—from data structures and caching to rate limiting, background jobs, and blockchain data visualisation.
 
 ## $ focus
 
 - Backend engineering and API design
 - Distributed systems and system design
-- Performance benchmarking and optimisation
-- Reliable, maintainable software
+- Performance measurement and engineering trade-offs
+- Building and documenting end-to-end projects
 
 ## $ projects
 
-### [Smart Search Engine](YOUR_SMART_SEARCH_REPOSITORY_URL)
+### [Smart Search Engine](https://github.com/Adhyan-25/smart-search-engine)
 
-A search and autocomplete platform exploring backend scalability,
-data structures, caching, and distributed infrastructure.
+An experimental search and autocomplete platform exploring backend scalability, data structures, caching, and distributed infrastructure.
 
-- Trie-based prefix autocomplete
-- Custom LRU cache and Bloom filter
-- Redis-backed rate limiting with Lua
-- Consistent hashing experiments
-- Nginx load balancing across Node.js instances
-- MongoDB and BullMQ
+- Trie-based prefix autocomplete, custom LRU cache, and Bloom filter
+- Redis-backed token-bucket rate limiting using Lua
+- Consistent hashing experiments and multiple Node.js instances behind Nginx
+- MongoDB and BullMQ for persistence and background jobs
+- Benchmarks and implementation limitations documented in the repository
 
-### [AutoCrypt](YOUR_AUTOCRYPT_REPOSITORY_URL)
+**Source status:** Repository is currently private while it is being prepared for public release.
 
-A Bitcoin blockchain forensics and visualisation tool for tracing
-fund flows across addresses and transactions.
+### [AutoCrypt](https://github.com/Adhyan-25/Autocryp)
 
-- Live on-chain data from the Blockchain.com API
-- Interactive D3.js force-directed transaction graph
-- Click-to-trace navigation across addresses
-- Transaction inputs, outputs, and BTC value breakdowns
-- React, TypeScript, and Vite
+A Bitcoin transaction-flow visualisation concept for exploring on-chain inputs, outputs, and address-to-address fund movement.
+
+- Intended workflow: address or transaction lookup, followed by an interactive D3 force-directed graph
+- Described stack: React, TypeScript, Vite, and D3.js
+- Uses the public Blockchain.com API; no backend is described
+
+**Source status:** Repository is currently private and requires source/build verification before public release. A live demo link will be added after deployment.
+
+### [Terminal-style Portfolio](https://github.com/Adhyan-25/portfolio)
+
+A React and Vite portfolio with a terminal-inspired interface, project explorer, theme switching, and resume support.
 
 ## $ tech-stack
 
 **Languages:** JavaScript, TypeScript  
-**Backend:** Node.js, Express.js, REST APIs  
+**Backend:** Node.js, Express.js  
 **Data:** MongoDB, Redis  
 **Infrastructure:** Docker, Nginx, BullMQ  
 **Frontend:** React, Vite, Tailwind CSS  
@@ -54,16 +54,16 @@ fund flows across addresses and transactions.
 
 ## $ currently-learning
 
-- Scalable backend architecture
-- Distributed systems and system design
+- Backend architecture and system design
 - Testing, CI/CD, and deployment
+- Performance benchmarking and optimisation
 
 ## $ connect
 
 - GitHub: [@Adhyan-25](https://github.com/Adhyan-25)
 - LinkedIn: [Adhyan Negi](https://www.linkedin.com/in/adhyan-negi/)
-- Portfolio: [View my projects](https://github.com/Adhyan-25/portfolio)
-- Email: adhyannegi81@gmail.com
+- Portfolio repository: [Adhyan-25/portfolio](https://github.com/Adhyan-25/portfolio)
+- Email: [adhyannegi81@gmail.com](mailto:adhyannegi81@gmail.com)
 
 ---
 
