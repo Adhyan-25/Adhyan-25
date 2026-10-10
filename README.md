@@ -5,7 +5,6 @@
 
 <p align="center">
   <a href="https://adhyan-25.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/Adhyan-25"><img src="https://img.shields.io/badge/GitHub-Adhyan--25-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
   <a href="mailto:adhyannegi81@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -63,7 +62,6 @@ I enjoy going beyond making an application work: understanding its data structur
 
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
