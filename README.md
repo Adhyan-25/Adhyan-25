@@ -1,75 +1,71 @@
-# Adhyan Negi
+<!-- Custom banner -->
+<p align="center">
+  <img src="profile-banner.svg" alt="Adhyan Negi — Backend engineering and distributed systems" width="100%" />
+</p>
 
-\`\`\`text
-$ whoami
-Backend-focused developer | B.Tech student
-Interested in distributed systems, scalable APIs, and system design.
-\`\`\`
+<p align="center">
+  <a href="https://adhyan-25.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Visit-0f172a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/Adhyan-25"><img src="https://img.shields.io/badge/GitHub-Adhyan--25-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="mailto:adhyannegi81@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-I build projects to understand how systems behave under real constraints—from data structures and caching to rate limiting, background jobs, and blockchain data visualisation.
+## `$` About me
 
-## $ focus
+I'm a B.Tech student focused on **backend engineering, distributed systems, and scalable APIs**. I like building systems, measuring their trade-offs, and documenting what works—and what doesn't.
 
-- Backend engineering and API design
-- Distributed systems and system design
-- Performance measurement and engineering trade-offs
-- Building and documenting end-to-end projects
+- `>_` Interested in system design, reliability, caching, and performance
+- `>_` Learning by building end-to-end projects
+- `>_` Currently strengthening testing, CI/CD, and deployment practices
 
-## $ projects
+## `$` Tech stack
 
-### [Smart Search Engine](https://github.com/Adhyan-25/smart-search-engine)
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+</p>
 
-An experimental search and autocomplete platform exploring backend scalability, data structures, caching, and distributed infrastructure.
+## `$` Featured projects
 
-- Trie-based prefix autocomplete, custom LRU cache, and Bloom filter
-- Redis-backed token-bucket rate limiting using Lua
-- Consistent hashing experiments and multiple Node.js instances behind Nginx
-- MongoDB and BullMQ for persistence and background jobs
-- Benchmarks and implementation limitations documented in the repository
-- CI workflow added for backend tests/lint and frontend build; verify the latest run before relying on its status
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔎 <a href="https://github.com/Adhyan-25/smart-search-engine">Smart Search Engine</a></h3>
+      <p>Backend-focused search and autocomplete platform exploring scalable architecture and data structures.</p>
+      <p><strong>Inside:</strong> Trie autocomplete · LRU cache · Bloom filter · Redis token bucket · Consistent hashing · Nginx · BullMQ</p>
+      <a href="https://github.com/Adhyan-25/smart-search-engine">Explore repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>₿ <a href="https://github.com/Adhyan-25/Autocryp">AutoCrypt</a></h3>
+      <p>Bitcoin transaction-flow visualisation concept for tracing movement between addresses.</p>
+      <p><strong>Stack:</strong> React · TypeScript · Vite · D3.js</p>
+      <p><em>Release status: source entry point is currently missing; build is not yet passing.</em></p>
+      <a href="https://github.com/Adhyan-25/Autocryp">Explore repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>⌘ <a href="https://adhyan-25.github.io/portfolio/">Terminal-style Portfolio</a></h3>
+      <p>A terminal-inspired personal site with a project explorer and resume support.</p>
+      <a href="https://adhyan-25.github.io/portfolio/">Open live website →</a>
+    </td>
+  </tr>
+</table>
 
-### [AutoCrypt](https://github.com/Adhyan-25/Autocryp)
+## `$` Current focus
 
-A Bitcoin transaction-flow visualisation project concept for exploring on-chain inputs, outputs, and address-to-address fund movement.
+```text
+[ learning ]  System design and backend architecture
+[ building ]  Reliable APIs and distributed components
+[ improving ] Testing, CI/CD, and performance measurement
+```
 
-- Intended workflow: address or transaction lookup, followed by an interactive D3 force-directed graph
-- Described stack: React, TypeScript, Vite, and D3.js
-- Uses the public Blockchain.com API; no backend is described
-
-**Release note:** The current public repository is missing the src/ application tree referenced by index.html; its Vite build cannot succeed until those source files are restored. The README documents the intended project, not a verified runnable release.
-
-### [Terminal-style Portfolio](https://github.com/Adhyan-25/portfolio)
-
-A React and Vite portfolio with a terminal-inspired interface, project explorer, theme switching, and resume support.
-
-- [Open live portfolio](https://adhyan-25.github.io/portfolio/)
-- [View latest deployment workflow](https://github.com/Adhyan-25/portfolio/actions)
-
-## $ tech-stack
-
-**Languages:** JavaScript, TypeScript  
-**Backend:** Node.js, Express.js  
-**Data:** MongoDB, Redis  
-**Infrastructure:** Docker, Nginx, BullMQ  
-**Frontend:** React, Vite, Tailwind CSS  
-**Visualisation:** D3.js
-
-## $ currently-learning
-
-- Backend architecture and system design
-- Testing, CI/CD, and deployment
-- Performance benchmarking and optimisation
-
-## $ connect
-
-- GitHub: [@Adhyan-25](https://github.com/Adhyan-25)
-- LinkedIn: [Adhyan Negi](https://www.linkedin.com/in/adhyan-negi/)
-- Portfolio: [adhyan-25.github.io/portfolio](https://adhyan-25.github.io/portfolio/)
-- Email: [adhyannegi81@gmail.com](mailto:adhyannegi81@gmail.com)
-
----
-
-\`\`\`text
-$ motto
-Understand the system. Measure the trade-offs. Improve the design.
-\`\`\`
+<p align="center">
+  <sub>Understand the system. Measure the trade-offs. Improve the design.</sub>
+</p>
