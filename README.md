@@ -1,10 +1,10 @@
 # Adhyan Negi
 
-```text
+\`\`\`text
 $ whoami
 Backend-focused developer | B.Tech student
 Interested in distributed systems, scalable APIs, and system design.
-```
+\`\`\`
 
 I build projects to understand how systems behave under real constraints—from data structures and caching to rate limiting, background jobs, and blockchain data visualisation.
 
@@ -26,22 +26,24 @@ An experimental search and autocomplete platform exploring backend scalability, 
 - Consistent hashing experiments and multiple Node.js instances behind Nginx
 - MongoDB and BullMQ for persistence and background jobs
 - Benchmarks and implementation limitations documented in the repository
-
-**Source status:** Repository is currently private while it is being prepared for public release.
+- CI workflow added for backend tests/lint and frontend build; verify the latest run before relying on its status
 
 ### [AutoCrypt](https://github.com/Adhyan-25/Autocryp)
 
-A Bitcoin transaction-flow visualisation concept for exploring on-chain inputs, outputs, and address-to-address fund movement.
+A Bitcoin transaction-flow visualisation project concept for exploring on-chain inputs, outputs, and address-to-address fund movement.
 
 - Intended workflow: address or transaction lookup, followed by an interactive D3 force-directed graph
 - Described stack: React, TypeScript, Vite, and D3.js
 - Uses the public Blockchain.com API; no backend is described
 
-**Source status:** Repository is currently private and requires source/build verification before public release. A live demo link will be added after deployment.
+**Release note:** The current public repository is missing the src/ application tree referenced by index.html; its Vite build cannot succeed until those source files are restored. The README documents the intended project, not a verified runnable release.
 
 ### [Terminal-style Portfolio](https://github.com/Adhyan-25/portfolio)
 
 A React and Vite portfolio with a terminal-inspired interface, project explorer, theme switching, and resume support.
+
+- [Open live portfolio](https://adhyan-25.github.io/portfolio/)
+- [View latest deployment workflow](https://github.com/Adhyan-25/portfolio/actions)
 
 ## $ tech-stack
 
@@ -62,12 +64,12 @@ A React and Vite portfolio with a terminal-inspired interface, project explorer,
 
 - GitHub: [@Adhyan-25](https://github.com/Adhyan-25)
 - LinkedIn: [Adhyan Negi](https://www.linkedin.com/in/adhyan-negi/)
-- Portfolio repository: [Adhyan-25/portfolio](https://github.com/Adhyan-25/portfolio)
+- Portfolio: [adhyan-25.github.io/portfolio](https://adhyan-25.github.io/portfolio/)
 - Email: [adhyannegi81@gmail.com](mailto:adhyannegi81@gmail.com)
 
 ---
 
-```text
+\`\`\`text
 $ motto
 Understand the system. Measure the trade-offs. Improve the design.
-```
+\`\`\`
