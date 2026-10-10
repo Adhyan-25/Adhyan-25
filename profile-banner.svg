@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Adhyan Negi — Backend Developer</title>
+  <desc id="desc">Dark terminal-inspired banner with a glowing grid and backend engineering tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d18"/>
+      <stop offset="1" stop-color="#101c2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#7dd3fc" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
+  <circle cx="1020" cy="88" r="90" fill="#2563eb" opacity=".16" filter="url(#glow)"/>
+  <circle cx="1080" cy="280" r="105" fill="#10b981" opacity=".12" filter="url(#glow)"/>
+  <rect x="56" y="46" width="1088" height="268" rx="18" fill="#030712" fill-opacity=".55" stroke="#94a3b8" stroke-opacity=".24"/>
+  <circle cx="84" cy="73" r="5" fill="#fb7185"/>
+  <circle cx="103" cy="73" r="5" fill="#fbbf24"/>
+  <circle cx="122" cy="73" r="5" fill="#6ee7b7"/>
+  <text x="78" y="120" fill="#6ee7b7" font-family="Consolas,Monaco,monospace" font-size="16">$ whoami</text>
+  <text x="78" y="178" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="700">Adhyan Negi</text>
+  <rect x="78" y="198" width="350" height="3" rx="2" fill="url(#accent)"/>
+  <text x="78" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Backend engineering · Distributed systems</text>
+  <text x="78" y="270" fill="#94a3b8" font-family="Consolas,Monaco,monospace" font-size="15">building • measuring • scaling</text>
+  <g transform="translate(900 128)" stroke="url(#accent)" stroke-width="2" fill="none" opacity=".9">
+    <path d="M0 45L55 8L112 45L55 82Z"/>
+    <path d="M0 45V112L55 148L112 112V45"/>
+    <path d="M55 82V148M0 112L55 45L112 112"/>
+    <circle cx="55" cy="8" r="5" fill="#6ee7b7" stroke="none"/>
+    <circle cx="0" cy="45" r="5" fill="#60a5fa" stroke="none"/>
+    <circle cx="112" cy="45" r="5" fill="#6ee7b7" stroke="none"/>
+    <circle cx="55" cy="82" r="5" fill="#60a5fa" stroke="none"/>
+    <circle cx="55" cy="148" r="5" fill="#6ee7b7" stroke="none"/>
+  </g>
+</svg>
