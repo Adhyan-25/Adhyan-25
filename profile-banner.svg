@@ -1,64 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">ADHYAN — AI, Backend Engineering and Systems</title>
-  <desc id="desc">A dark pixel-art fantasy landscape with a golden Erdtree-inspired glow, ruined castles, a lone wanderer, and terminal-style labels for AI engineering, backend engineering, systems, and open source.</desc>
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05090c"/><stop offset=".55" stop-color="#121711"/><stop offset="1" stop-color="#252013"/></linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d77a"/><stop offset="1" stop-color="#a87924"/></linearGradient>
-    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#c6b77b" opacity=".2"/></pattern>
-    <pattern id="pixels" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8V8" fill="none" stroke="#d4b65f" stroke-opacity=".12" stroke-width=".6"/></pattern>
-    <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
-  </defs>
-  <rect width="1200" height="360" fill="url(#sky)"/><rect width="1200" height="360" fill="url(#dots)"/>
-  <circle cx="1030" cy="82" r="88" fill="#d8a83e" opacity=".16" filter="url(#glow)"/>
-  <!-- distant mountains and ruins -->
-  <path d="M0 244L90 180L150 218L250 135L315 222L430 171L510 235L640 170L740 228L850 160L940 221L1050 145L1200 213V360H0Z" fill="#121713"/>
-  <g fill="#080c0d" stroke="#6c5a31" stroke-opacity=".35" stroke-width="1">
-    <path d="M32 248V160H48V132H61V177H74V151H86V248Z"/><path d="M87 250V198H105V165H119V188H132V250Z"/>
-    <path d="M868 250V177H885V139H899V174H914V155H930V250Z"/><path d="M928 253V204H946V169H960V190H974V253Z"/>
-    <path d="M1060 245V180H1075V125H1090V166H1105V145H1120V245Z"/><path d="M1121 246V195H1140V163H1153V188H1172V246Z"/>
-  </g>
-  <!-- glowing tree -->
-  <g stroke-linecap="square" fill="none">
-    <path d="M1024 203L1028 137L1005 101L980 77M1027 148L1055 109L1070 72M1027 173L989 145L966 113M1030 128L1048 79L1044 45M1004 103L1008 62" stroke="#e4b847" stroke-width="5" opacity=".82"/>
-    <path d="M1025 203L1028 137L1005 101L980 77M1027 148L1055 109L1070 72M1027 173L989 145L966 113M1030 128L1048 79L1044 45M1004 103L1008 62" stroke="#ffed9b" stroke-width="1.5"/>
-  </g>
-  <g fill="#e8c65f" opacity=".9">
-    <rect x="954" y="73" width="7" height="7"/><rect x="972" y="54" width="5" height="5"/><rect x="993" y="36" width="7" height="7"/><rect x="1018" y="23" width="6" height="6"/><rect x="1042" y="31" width="7" height="7"/><rect x="1064" y="49" width="5" height="5"/><rect x="1084" y="70" width="7" height="7"/><rect x="1099" y="94" width="5" height="5"/><rect x="944" y="111" width="5" height="5"/><rect x="1071" y="119" width="6" height="6"/><rect x="1000" y="126" width="5" height="5"/>
-  </g>
-  <!-- broken bridge -->
-  <path d="M565 270Q710 232 858 270L858 282Q710 248 565 282Z" fill="#24251c" stroke="#8b7339" stroke-opacity=".55"/>
-  <path d="M600 276V301M635 270V298M805 269V299M838 276V302" stroke="#63532d" stroke-width="4"/>
-  <!-- foreground -->
-  <path d="M0 290L130 260L220 295L335 272L450 300L575 278L710 302L840 274L970 301L1090 274L1200 294V360H0Z" fill="#070b0b"/>
-  <path d="M0 320L200 310L350 328L530 315L700 332L900 312L1080 328L1200 316" fill="none" stroke="#8c733a" stroke-opacity=".25" stroke-width="2"/>
-  <!-- lone wanderer -->
-  <g transform="translate(112 190)">
-    <path d="M21 16Q7 22 5 42L0 86L18 81L34 104L61 98L54 65L48 40Q44 23 31 16Z" fill="#080b0c" stroke="#715d35" stroke-width="1.5"/>
-    <path d="M13 32L-8 84L20 72L37 98L47 70L37 39Z" fill="#241b15"/>
-    <path d="M17 14Q16 -2 31 -3Q45 0 42 17L36 26L20 23Z" fill="#080b0c" stroke="#a18a50" stroke-width="1.2"/>
-    <path d="M32 27L48 66L42 94" fill="none" stroke="#9a7a3c" stroke-width="2"/>
-    <path d="M-1 81L-6 124M-11 124H0" stroke="#b6a06b" stroke-width="2"/>
-  </g>
-  <!-- framed terminal panel -->
-  <rect x="32" y="26" width="475" height="202" rx="3" fill="#06090a" fill-opacity=".82" stroke="#88703b" stroke-opacity=".7"/>
-  <path d="M32 44V26H50M489 26H507V44M32 210V228H50M489 228H507V210" fill="none" stroke="#d4ad4f" stroke-width="2"/>
-  <text x="52" y="53" fill="#d7b85d" font-family="monospace" font-size="12">$ whoami</text>
-  <text x="52" y="80" fill="#f0e6c9" font-family="monospace" font-size="23" font-weight="bold">ADHYAN</text>
-  <text x="52" y="103" fill="#c4bda8" font-family="monospace" font-size="12">B.Tech CSE · Software Engineer in the making</text>
-  <text x="52" y="128" fill="#d7b85d" font-family="monospace" font-size="12">$ focus --current</text>
-  <text x="52" y="148" fill="#e2d9c3" font-family="monospace" font-size="12">AI engineering · Backend · Scalable systems</text>
-  <text x="52" y="172" fill="#d7b85d" font-family="monospace" font-size="12">$ exploring</text>
-  <text x="52" y="192" fill="#c4bda8" font-family="monospace" font-size="11">RAG · Retrieval · LLM evaluation · LLMOps</text>
-  <text x="52" y="210" fill="#8caa69" font-family="monospace" font-size="11">build / learn / measure / repeat_</text>
-  <!-- center title and focus labels -->
-  <text x="632" y="102" text-anchor="middle" fill="#f0e2bd" font-family="Georgia,serif" font-size="55" letter-spacing="7">ADHYAN</text>
-  <path d="M540 118H725" stroke="url(#gold)" stroke-width="1"/><path d="M744 118H930" stroke="url(#gold)" stroke-width="1"/>
-  <path d="M735 111L742 118L735 125L728 118Z" fill="#d6b252"/>
-  <text x="735" y="143" text-anchor="middle" fill="#d5c7a3" font-family="monospace" font-size="12" letter-spacing="3">BUILD · LEARN · EXPERIMENT · REPEAT</text>
-  <g font-family="monospace" text-anchor="middle">
-    <text x="586" y="184" fill="#e0bd60" font-size="12">AI ENGINEERING</text><text x="586" y="202" fill="#c2baa6" font-size="10">LLMs · RAG · EVALUATION</text>
-    <text x="748" y="184" fill="#e0bd60" font-size="12">BACKEND</text><text x="748" y="202" fill="#c2baa6" font-size="10">APIs · DATA · DISTRIBUTED</text>
-    <text x="906" y="184" fill="#e0bd60" font-size="12">SYSTEMS</text><text x="906" y="202" fill="#c2baa6" font-size="10">CACHING · INFRA · DEVOPS</text>
-  </g>
-  <rect width="1200" height="360" fill="url(#pixels)" opacity=".55"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+<title id="title">ADHYAN — Dark fantasy pixel art</title>
+<desc id="desc">Pixel-art fantasy ruins, a lone knight, a broken bridge, a glowing golden tree, a circular rune and swords above the ADHYAN title, in a dark GitHub profile banner.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05090b"/><stop offset=".55" stop-color="#111713"/><stop offset="1" stop-color="#251d10"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#f4d77c"/><stop offset="1" stop-color="#a77a25"/></linearGradient>
+ <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#d5bd72" opacity=".25"/></pattern>
+ <pattern id="pix" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8V8" fill="none" stroke="#c7a84d" stroke-opacity=".1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1200" height="380" fill="url(#bg)"/><rect width="1200" height="380" fill="url(#dots)"/>
+<!-- moon and distant gothic skyline -->
+<circle cx="185" cy="65" r="28" fill="#b9a66d" opacity=".14"/><circle cx="185" cy="65" r="22" fill="none" stroke="#c6b27a" stroke-opacity=".45"/>
+<path d="M0 245L70 170L125 224L190 135L244 228L330 175L410 244L520 185L600 239L700 166L770 231L870 173L970 237L1080 155L1200 226V380H0Z" fill="#121714"/>
+<g fill="#070b0c" stroke="#62532f" stroke-opacity=".5">
+ <path d="M0 260V174H16V138H30V174H45V153H58V260Z"/><path d="M65 260V205H83V160H98V190H112V260Z"/>
+ <path d="M150 253V195H168V149H183V181H197V253Z"/><path d="M222 258V201H240V164H254V185H268V258Z"/>
+ <path d="M820 254V185H836V146H852V178H866V254Z"/><path d="M886 256V207H903V167H917V190H932V256Z"/>
+ <path d="M1040 252V184H1056V132H1072V174H1088V151H1103V252Z"/><path d="M1110 258V205H1128V166H1144V192H1160V258Z"/>
+</g>
+<!-- golden tree at right -->
+<circle cx="1040" cy="75" r="100" fill="#d9a936" opacity=".17" filter="url(#glow)"/>
+<g fill="none" stroke-linecap="square">
+ <path d="M1040 248L1040 172L1012 128L980 98M1040 192L1072 146L1090 102M1040 158L1061 112L1056 61M1017 136L1018 91L1001 62M1040 178L1000 161L976 132M1044 171L1082 166L1111 132" stroke="#d8a83e" stroke-width="6" opacity=".75"/>
+ <path d="M1040 248L1040 172L1012 128L980 98M1040 192L1072 146L1090 102M1040 158L1061 112L1056 61M1017 136L1018 91L1001 62M1040 178L1000 161L976 132M1044 171L1082 166L1111 132" stroke="#ffeb9c" stroke-width="1.5"/>
+</g>
+<g fill="#e9c85c"><rect x="969" y="91" width="7" height="7"/><rect x="990" y="56" width="5" height="5"/><rect x="1012" y="37" width="7" height="7"/><rect x="1042" y="26" width="6" height="6"/><rect x="1068" y="49" width="6" height="6"/><rect x="1094" y="71" width="7" height="7"/><rect x="1110" y="105" width="5" height="5"/><rect x="1082" y="125" width="6" height="6"/><rect x="951" y="128" width="5" height="5"/></g>
+<!-- ruined stone bridge across the mist -->
+<path d="M350 259Q610 218 900 258L900 270Q610 232 350 271Z" fill="#28271e" stroke="#92753a" stroke-opacity=".7"/>
+<g fill="none" stroke="#766139" stroke-width="4"><path d="M400 263V292M440 257V289M820 254V287M860 257V292"/><path d="M500 255Q520 282 540 255M650 245Q675 276 700 246M740 247Q760 274 780 250"/></g>
+<!-- foreground mist and rocky shore -->
+<path d="M0 303L100 277L205 306L310 285L420 312L540 287L680 313L810 284L925 308L1050 280L1200 305V380H0Z" fill="#070b0b"/>
+<path d="M0 335L220 325L390 342L590 327L770 345L980 326L1200 338" fill="none" stroke="#88703b" stroke-opacity=".35" stroke-width="2"/>
+<!-- knight on left -->
+<g transform="translate(94 192)">
+ <path d="M26 22Q10 29 7 49L0 94L22 84L42 116L70 106L59 65Q57 37 42 22Z" fill="#080b0c" stroke="#76613b" stroke-width="2"/>
+ <path d="M18 37L-7 89L21 80L41 107L52 74L39 40Z" fill="#2a1c13"/>
+ <path d="M22 22Q17 2 34 -3Q50 1 46 23L39 32L24 31Z" fill="#090d0e" stroke="#b39a58" stroke-width="1.5"/>
+ <path d="M30 34L51 68L47 103" fill="none" stroke="#bca15b" stroke-width="2"/>
+ <path d="M-5 86L-10 137M-15 137H-3" stroke="#d1bd80" stroke-width="2"/>
+ <path d="M52 45L70 11L73 6" fill="none" stroke="#bba66d" stroke-width="3"/>
+</g>
+<!-- central ring sigil -->
+<g transform="translate(630 64)" fill="none" stroke="#d7b451">
+ <circle r="37" stroke-opacity=".85" stroke-width="2"/><circle r="27" stroke-opacity=".7"/><path d="M0 -51V51M-45 0H45M-31 -31L31 31M31 -31L-31 31" stroke-opacity=".8"/>
+ <path d="M0 -47L7 -33L0 -22L-7 -33Z M0 47L7 33L0 22L-7 33Z M-43 0L-29 -7L-18 0L-29 7Z M43 0L29 -7L18 0L29 7Z" fill="#d7b451" stroke="none"/>
+</g>
+<!-- crossed swords above the name -->
+<g stroke="#d9c18a" stroke-width="3" stroke-linecap="square" fill="none">
+ <path d="M560 39L602 104M550 45L568 34M558 52L570 44M593 91L608 82"/>
+ <path d="M700 39L658 104M710 45L692 34M702 52L690 44M667 91L652 82"/>
+</g>
+<g fill="#d7b451"><path d="M556 32L562 20L565 39Z"/><path d="M704 32L698 20L695 39Z"/></g>
+<!-- title -->
+<text x="630" y="145" text-anchor="middle" fill="#f0d985" font-family="Georgia,serif" font-size="55" font-weight="bold" letter-spacing="7">ADHYAN</text>
+<path d="M456 160H804" stroke="url(#gold)" stroke-width="1.5"/><path d="M630 153L637 160L630 167L623 160Z" fill="#d7b451"/>
+<text x="630" y="185" text-anchor="middle" fill="#e1d2aa" font-family="monospace" font-size="12" letter-spacing="3">BUILD · LEARN · EXPERIMENT · REPEAT</text>
+<text x="630" y="212" text-anchor="middle" fill="#d8b85c" font-family="monospace" font-size="12" letter-spacing="1.5">AI ENGINEERING  ·  BACKEND  ·  DISTRIBUTED SYSTEMS</text>
+<text x="630" y="233" text-anchor="middle" fill="#bfb69e" font-family="monospace" font-size="11" letter-spacing="1">RAG  ·  VECTOR SEARCH  ·  LLM EVALUATION  ·  LLMOPS</text>
+<rect width="1200" height="380" fill="url(#pix)"/>
 </svg>
