@@ -1,6 +1,6 @@
 <!-- Dark fantasy / pixel-art profile banner -->
 <p align="center">
-  <img src="profile-banner.svg" alt="ADHYAN — AI engineering, backend development and scalable systems in a dark fantasy pixel-art landscape" width="100%" />
+  <img src="profile-banner.svg" alt="ADHYAN — dark fantasy pixel-art banner featuring a knight, ruined bridge, crossed swords, golden rune and glowing tree; AI engineering, backend and distributed systems" width="100%" />
 </p>
 
 <p align="center">
@@ -95,10 +95,8 @@ A terminal-inspired portfolio for presenting projects, skills, and background.
 ## `$ contributions --live`
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake moving through the GitHub contribution graph" width="100%" />
+  <img src="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake-dark.svg" alt="Animated pixelated contribution snake moving through the GitHub contribution grid in dark mode" width="100%" />
 </p>
-
-<p align="center"><sub>The snake animation updates automatically through GitHub Actions. The first run may take a minute or two to publish.</sub></p>
 
 ## `$ roadmap --ai-systems`
 
