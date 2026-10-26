@@ -1,169 +1,113 @@
-<!-- Custom banner -->
+<!-- Dark fantasy / pixel-art profile banner -->
 <p align="center">
-  <img src="profile-banner.svg" alt="Adhyan Negi — Backend engineering and distributed systems" width="100%" />
+  <img src="profile-banner.svg" alt="ADHYAN — AI engineering, backend development and scalable systems in a dark fantasy pixel-art landscape" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://adhyan-25.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-Explore-0f172a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://adhyan-25.github.io/portfolio/resume.pdf"><img src="https://img.shields.io/badge/Resume-View-334155?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
-  <a href="https://www.linkedin.com/in/Adhyan-Negi/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:adhyannegi81@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://adhyan-25.github.io/portfolio/"><img src="https://img.shields.io/badge/PORTFOLIO-Visit-171812?style=for-the-badge&logo=githubpages&logoColor=d6b252" alt="Portfolio" /></a>
+  <a href="https://adhyan-25.github.io/portfolio/resume.pdf"><img src="https://img.shields.io/badge/RESUME-View-171812?style=for-the-badge&logo=adobeacrobatreader&logoColor=d6b252" alt="Resume" /></a>
+  <a href="https://www.linkedin.com/in/Adhyan-Negi/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-171812?style=for-the-badge&logo=linkedin&logoColor=d6b252" alt="LinkedIn" /></a>
 </p>
 
-<h2 align="center">Backend Development · Core Computer Science · Distributed Systems</h2>
-
-<p align="center">
-  B.Tech student focused on backend engineering, practical computer science, and building reliable systems.
-</p>
+<h2 align="center">AI Engineering · Backend Development · Distributed Systems</h2>
+<p align="center"><em>Building practical software, learning the systems beneath it, and measuring what works.</em></p>
 
 ## `$ whoami`
 
-I like understanding what happens behind an application: how data is stored and retrieved, how services communicate, where bottlenecks appear, and how design choices affect reliability and scale.
+I'm a B.Tech Computer Science student interested in the intersection of **AI applications and reliable backend systems**. I enjoy turning concepts into working projects, understanding trade-offs, and improving systems through testing and measurement.
 
-- Building APIs and backend services with **JavaScript, Node.js, and Express**
-- Using **Java** for programming and object-oriented concepts
-- Practising **Data Structures & Algorithms** and strengthening core CS fundamentals
-- Exploring caching, rate limiting, background jobs, and multi-instance architectures
+- **Building:** APIs, search systems, data-driven applications, and backend components.
+- **Exploring AI engineering:** LLM applications, retrieval-augmented generation (RAG), vector search, and evaluation.
+- **Interested in production practices:** experiment tracking, observability, deployment, and LLMOps.
+- **Strengthening:** data structures and algorithms, databases, networking, operating systems, and system design.
 
-## `$ skills --stack`
+> Current learning areas are labelled as exploration—not claimed as production expertise.
 
-### Languages
+## `$ focus --areas`
 
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=111827" alt="C" />
-</p>
+| Area | What it means in practice |
+| --- | --- |
+| **AI engineering** | Building useful applications around language models, retrieval, and tools. |
+| **RAG & information retrieval** | Retrieving relevant source material for an LLM; learning chunking, embeddings, reranking, and retrieval quality. |
+| **Vector & hybrid search** | Semantic similarity with vector indexes, combined where useful with keyword search and metadata filters. |
+| **LLM evaluation** | Testing answer relevance, groundedness, retrieval quality, latency, cost, and failure cases with repeatable datasets. |
+| **LLMOps & observability** | Tracing prompts and model calls, monitoring quality and cost, versioning evaluations, and managing deployments. |
+| **Backend & distributed systems** | API design, caching, queues, rate limiting, load balancing, and reliability trade-offs. |
 
-### Backend, frontend & APIs
+## `$ stack --tools`
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-111827?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/REST_APIs-0F766E?style=flat-square" alt="REST APIs" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-</p>
-
-### Databases & data
+**Languages**
 
 <p>
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square" alt="SQL" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Java-171812?style=flat-square&logo=openjdk&logoColor=d6b252" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-171812?style=flat-square&logo=javascript&logoColor=d6b252" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-171812?style=flat-square&logo=typescript&logoColor=d6b252" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-171812?style=flat-square&logo=python&logoColor=d6b252" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-171812?style=flat-square&logo=postgresql&logoColor=d6b252" alt="SQL" />
 </p>
 
-### Tools & infrastructure
+**Backend, databases & infrastructure**
 
 <p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/BullMQ-CB3837?style=flat-square" alt="BullMQ" />
+  <img src="https://img.shields.io/badge/Node.js-171812?style=flat-square&logo=nodedotjs&logoColor=d6b252" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-171812?style=flat-square&logo=express&logoColor=d6b252" alt="Express" />
+  <img src="https://img.shields.io/badge/React-171812?style=flat-square&logo=react&logoColor=d6b252" alt="React" />
+  <img src="https://img.shields.io/badge/MongoDB-171812?style=flat-square&logo=mongodb&logoColor=d6b252" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Redis-171812?style=flat-square&logo=redis&logoColor=d6b252" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-171812?style=flat-square&logo=docker&logoColor=d6b252" alt="Docker" />
+  <img src="https://img.shields.io/badge/Nginx-171812?style=flat-square&logo=nginx&logoColor=d6b252" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Git_&_Linux-171812?style=flat-square&logo=git&logoColor=d6b252" alt="Git and Linux" />
 </p>
 
-## `$ learn --core-cs`
+**AI ecosystem — learning and evaluation targets**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Data Structures & Algorithms</h3>
-      <ul>
-        <li>Arrays, strings, linked lists, stacks, and queues</li>
-        <li>Trees, tries, hash maps, and graphs</li>
-        <li>Searching, sorting, recursion, and complexity analysis</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Database Management Systems</h3>
-      <ul>
-        <li>SQL, joins, subqueries, and relational modelling</li>
-        <li>Normalization, keys, and constraints</li>
-        <li>Indexes, ACID transactions, and concurrency fundamentals</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Operating Systems</h3>
-      <ul>
-        <li>Processes, threads, and CPU scheduling</li>
-        <li>Synchronization, mutexes, and semaphores</li>
-        <li>Deadlocks, memory management, and paging</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Computer Networks</h3>
-      <ul>
-        <li>OSI and TCP/IP models</li>
-        <li>IP, TCP/UDP, DNS, and HTTP/HTTPS</li>
-        <li>Client-server communication, latency, and ports</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Object-Oriented Programming</h3>
-      <ul>
-        <li>Encapsulation, abstraction, inheritance, and polymorphism</li>
-        <li>Classes, interfaces, and composition fundamentals</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Backend & System Design</h3>
-      <ul>
-        <li>REST APIs, middleware, and request lifecycles</li>
-        <li>Caching, rate limiting, and background jobs</li>
-        <li>Load balancing and distributed-system fundamentals</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p>
+  <img src="https://img.shields.io/badge/LLMs_&_Embeddings-262318?style=flat-square&logo=openai&logoColor=d6b252" alt="LLMs and embeddings" />
+  <img src="https://img.shields.io/badge/RAG-262318?style=flat-square&logo=readthedocs&logoColor=d6b252" alt="Retrieval augmented generation" />
+  <img src="https://img.shields.io/badge/Vector_Search-262318?style=flat-square&logo=databricks&logoColor=d6b252" alt="Vector search" />
+  <img src="https://img.shields.io/badge/LLM_Evaluation-262318?style=flat-square&logo=checkmarx&logoColor=d6b252" alt="LLM evaluation" />
+</p>
 
 ## `$ ls ./projects`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔎 <a href="https://github.com/Adhyan-25/smart-search-engine">Smart Search Engine</a></h3>
-      <p>Backend-focused search and autocomplete platform exploring scalable architecture and data structures.</p>
-      <p><strong>Built around:</strong> Trie autocomplete · LRU cache · Bloom filter · Redis token bucket · Consistent hashing · Nginx · BullMQ</p>
-      <a href="https://github.com/Adhyan-25/smart-search-engine">Explore repository →</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>₿ <a href="https://github.com/Adhyan-25/Autocryp">AutoCrypt</a></h3>
-      <p>Bitcoin transaction-flow visualisation concept for tracing movement between addresses.</p>
-      <p><strong>Stack:</strong> React · TypeScript · Vite · D3.js</p>
-      <p><em>Work in progress: the current repository snapshot is missing its application entry point.</em></p>
-      <a href="https://github.com/Adhyan-25/Autocryp">Explore repository →</a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>⌘ <a href="https://adhyan-25.github.io/portfolio/">Terminal-style Portfolio</a></h3>
-      <p>Interactive terminal-inspired portfolio with project exploration and a replaceable resume PDF.</p>
-      <a href="https://adhyan-25.github.io/portfolio/">Open portfolio →</a> · <a href="https://adhyan-25.github.io/portfolio/resume.pdf">View resume PDF →</a>
-    </td>
-  </tr>
-</table>
+### [Smart Search Engine](https://github.com/Adhyan-25/smart-search-engine)
+A backend-focused search and autocomplete platform exploring data structures and scalable request handling.
+
+- **Core ideas:** Trie autocomplete, LRU caching, Bloom filters, consistent hashing, Redis-backed token-bucket rate limiting, and queued analytics.
+- **Infrastructure:** Node.js, Express, MongoDB, Redis, BullMQ, Docker Compose, and Nginx.
+- **Focus:** Compare design trade-offs with benchmarks instead of relying on intuition.
+
+### [AutoCryp](https://github.com/Adhyan-25/Autocryp)
+A Bitcoin transaction-flow visualisation project for exploring addresses and tracing transaction relationships.
+
+- **Focus:** blockchain data, interactive graph exploration, and transaction details.
+- **Stack:** React, TypeScript, Vite, and D3.js.
+
+### [Divagram](https://github.com/Adhyan-25/Divagram)
+A personal finance and relocation-advice web app concept.
+
+- **Focus:** budgeting, financial planning, and location-aware cost comparisons.
+- **Stack:** MERN-oriented web application.
+
+### [Portfolio — ADHYAN.EXE](https://adhyan-25.github.io/portfolio/)
+A terminal-inspired portfolio for presenting projects, skills, and background.
+
+## `$ roadmap --ai-systems`
+
+- [ ] Build an end-to-end RAG application with source citations and a reproducible test dataset.
+- [ ] Compare chunking strategies, embedding models, and vector retrieval against a baseline.
+- [ ] Evaluate retrieval and generated answers separately; record quality, latency, and cost.
+- [ ] Add tracing, error handling, and monitoring to an LLM-backed API.
+- [ ] Explore hybrid search, reranking, and evaluation tools before choosing a stack.
+- [ ] Document results, limitations, and trade-offs in project READMEs.
 
 ## `$ status`
 
 ```text
-[ practising ]  DSA, Java, SQL, and core CS
-[ building   ]  APIs and distributed components
-[ learning   ]  System design and backend architecture
-[ improving  ]  Testing, CI/CD, and performance measurement
+[ building   ]  Backend APIs and search systems
+[ learning   ]  RAG, vector search, and LLM evaluation
+[ exploring  ]  LLMOps, observability, and deployment workflows
+[ practising ]  DSA, databases, networking, and system design
 ```
 
-<p align="center">
-  <sub>Understand the system. Measure the trade-offs. Improve the design.</sub>
-</p>
+<p align="center"><sub>Understand the system. Measure the trade-offs. Improve the design.</sub></p>
