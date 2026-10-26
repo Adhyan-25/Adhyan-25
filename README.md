@@ -92,6 +92,14 @@ A personal finance and relocation-advice web app concept.
 ### [Portfolio — ADHYAN.EXE](https://adhyan-25.github.io/portfolio/)
 A terminal-inspired portfolio for presenting projects, skills, and background.
 
+## `$ contributions --live`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake moving through the GitHub contribution graph" width="100%" />
+</p>
+
+<p align="center"><sub>The snake animation updates automatically through GitHub Actions. The first run may take a minute or two to publish.</sub></p>
+
 ## `$ roadmap --ai-systems`
 
 - [ ] Build an end-to-end RAG application with source citations and a reproducible test dataset.
