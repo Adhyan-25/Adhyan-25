@@ -1,41 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Adhyan Negi — Backend Developer</title>
-  <desc id="desc">Dark terminal-inspired banner with a glowing grid and backend engineering tagline.</desc>
+  <title id="title">ADHYAN — AI, Backend Engineering and Systems</title>
+  <desc id="desc">A dark pixel-art fantasy landscape with a golden Erdtree-inspired glow, ruined castles, a lone wanderer, and terminal-style labels for AI engineering, backend engineering, systems, and open source.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080d18"/>
-      <stop offset="1" stop-color="#101c2e"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#6ee7b7"/>
-      <stop offset="1" stop-color="#60a5fa"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#7dd3fc" stroke-opacity=".08" stroke-width="1"/>
-    </pattern>
-    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05090c"/><stop offset=".55" stop-color="#121711"/><stop offset="1" stop-color="#252013"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5d77a"/><stop offset="1" stop-color="#a87924"/></linearGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".8" fill="#c6b77b" opacity=".2"/></pattern>
+    <pattern id="pixels" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8V8" fill="none" stroke="#d4b65f" stroke-opacity=".12" stroke-width=".6"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
   </defs>
-  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-  <circle cx="1020" cy="88" r="90" fill="#2563eb" opacity=".16" filter="url(#glow)"/>
-  <circle cx="1080" cy="280" r="105" fill="#10b981" opacity=".12" filter="url(#glow)"/>
-  <rect x="56" y="46" width="1088" height="268" rx="18" fill="#030712" fill-opacity=".55" stroke="#94a3b8" stroke-opacity=".24"/>
-  <circle cx="84" cy="73" r="5" fill="#fb7185"/>
-  <circle cx="103" cy="73" r="5" fill="#fbbf24"/>
-  <circle cx="122" cy="73" r="5" fill="#6ee7b7"/>
-  <text x="78" y="120" fill="#6ee7b7" font-family="Consolas,Monaco,monospace" font-size="16">$ whoami</text>
-  <text x="78" y="178" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="700">Adhyan Negi</text>
-  <rect x="78" y="198" width="350" height="3" rx="2" fill="url(#accent)"/>
-  <text x="78" y="235" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Backend engineering · Distributed systems</text>
-  <text x="78" y="270" fill="#94a3b8" font-family="Consolas,Monaco,monospace" font-size="15">building • measuring • scaling</text>
-  <g transform="translate(900 128)" stroke="url(#accent)" stroke-width="2" fill="none" opacity=".9">
-    <path d="M0 45L55 8L112 45L55 82Z"/>
-    <path d="M0 45V112L55 148L112 112V45"/>
-    <path d="M55 82V148M0 112L55 45L112 112"/>
-    <circle cx="55" cy="8" r="5" fill="#6ee7b7" stroke="none"/>
-    <circle cx="0" cy="45" r="5" fill="#60a5fa" stroke="none"/>
-    <circle cx="112" cy="45" r="5" fill="#6ee7b7" stroke="none"/>
-    <circle cx="55" cy="82" r="5" fill="#60a5fa" stroke="none"/>
-    <circle cx="55" cy="148" r="5" fill="#6ee7b7" stroke="none"/>
+  <rect width="1200" height="360" fill="url(#sky)"/><rect width="1200" height="360" fill="url(#dots)"/>
+  <circle cx="1030" cy="82" r="88" fill="#d8a83e" opacity=".16" filter="url(#glow)"/>
+  <!-- distant mountains and ruins -->
+  <path d="M0 244L90 180L150 218L250 135L315 222L430 171L510 235L640 170L740 228L850 160L940 221L1050 145L1200 213V360H0Z" fill="#121713"/>
+  <g fill="#080c0d" stroke="#6c5a31" stroke-opacity=".35" stroke-width="1">
+    <path d="M32 248V160H48V132H61V177H74V151H86V248Z"/><path d="M87 250V198H105V165H119V188H132V250Z"/>
+    <path d="M868 250V177H885V139H899V174H914V155H930V250Z"/><path d="M928 253V204H946V169H960V190H974V253Z"/>
+    <path d="M1060 245V180H1075V125H1090V166H1105V145H1120V245Z"/><path d="M1121 246V195H1140V163H1153V188H1172V246Z"/>
   </g>
+  <!-- glowing tree -->
+  <g stroke-linecap="square" fill="none">
+    <path d="M1024 203L1028 137L1005 101L980 77M1027 148L1055 109L1070 72M1027 173L989 145L966 113M1030 128L1048 79L1044 45M1004 103L1008 62" stroke="#e4b847" stroke-width="5" opacity=".82"/>
+    <path d="M1025 203L1028 137L1005 101L980 77M1027 148L1055 109L1070 72M1027 173L989 145L966 113M1030 128L1048 79L1044 45M1004 103L1008 62" stroke="#ffed9b" stroke-width="1.5"/>
+  </g>
+  <g fill="#e8c65f" opacity=".9">
+    <rect x="954" y="73" width="7" height="7"/><rect x="972" y="54" width="5" height="5"/><rect x="993" y="36" width="7" height="7"/><rect x="1018" y="23" width="6" height="6"/><rect x="1042" y="31" width="7" height="7"/><rect x="1064" y="49" width="5" height="5"/><rect x="1084" y="70" width="7" height="7"/><rect x="1099" y="94" width="5" height="5"/><rect x="944" y="111" width="5" height="5"/><rect x="1071" y="119" width="6" height="6"/><rect x="1000" y="126" width="5" height="5"/>
+  </g>
+  <!-- broken bridge -->
+  <path d="M565 270Q710 232 858 270L858 282Q710 248 565 282Z" fill="#24251c" stroke="#8b7339" stroke-opacity=".55"/>
+  <path d="M600 276V301M635 270V298M805 269V299M838 276V302" stroke="#63532d" stroke-width="4"/>
+  <!-- foreground -->
+  <path d="M0 290L130 260L220 295L335 272L450 300L575 278L710 302L840 274L970 301L1090 274L1200 294V360H0Z" fill="#070b0b"/>
+  <path d="M0 320L200 310L350 328L530 315L700 332L900 312L1080 328L1200 316" fill="none" stroke="#8c733a" stroke-opacity=".25" stroke-width="2"/>
+  <!-- lone wanderer -->
+  <g transform="translate(112 190)">
+    <path d="M21 16Q7 22 5 42L0 86L18 81L34 104L61 98L54 65L48 40Q44 23 31 16Z" fill="#080b0c" stroke="#715d35" stroke-width="1.5"/>
+    <path d="M13 32L-8 84L20 72L37 98L47 70L37 39Z" fill="#241b15"/>
+    <path d="M17 14Q16 -2 31 -3Q45 0 42 17L36 26L20 23Z" fill="#080b0c" stroke="#a18a50" stroke-width="1.2"/>
+    <path d="M32 27L48 66L42 94" fill="none" stroke="#9a7a3c" stroke-width="2"/>
+    <path d="M-1 81L-6 124M-11 124H0" stroke="#b6a06b" stroke-width="2"/>
+  </g>
+  <!-- framed terminal panel -->
+  <rect x="32" y="26" width="475" height="202" rx="3" fill="#06090a" fill-opacity=".82" stroke="#88703b" stroke-opacity=".7"/>
+  <path d="M32 44V26H50M489 26H507V44M32 210V228H50M489 228H507V210" fill="none" stroke="#d4ad4f" stroke-width="2"/>
+  <text x="52" y="53" fill="#d7b85d" font-family="monospace" font-size="12">$ whoami</text>
+  <text x="52" y="80" fill="#f0e6c9" font-family="monospace" font-size="23" font-weight="bold">ADHYAN</text>
+  <text x="52" y="103" fill="#c4bda8" font-family="monospace" font-size="12">B.Tech CSE · Software Engineer in the making</text>
+  <text x="52" y="128" fill="#d7b85d" font-family="monospace" font-size="12">$ focus --current</text>
+  <text x="52" y="148" fill="#e2d9c3" font-family="monospace" font-size="12">AI engineering · Backend · Scalable systems</text>
+  <text x="52" y="172" fill="#d7b85d" font-family="monospace" font-size="12">$ exploring</text>
+  <text x="52" y="192" fill="#c4bda8" font-family="monospace" font-size="11">RAG · Retrieval · LLM evaluation · LLMOps</text>
+  <text x="52" y="210" fill="#8caa69" font-family="monospace" font-size="11">build / learn / measure / repeat_</text>
+  <!-- center title and focus labels -->
+  <text x="632" y="102" text-anchor="middle" fill="#f0e2bd" font-family="Georgia,serif" font-size="55" letter-spacing="7">ADHYAN</text>
+  <path d="M540 118H725" stroke="url(#gold)" stroke-width="1"/><path d="M744 118H930" stroke="url(#gold)" stroke-width="1"/>
+  <path d="M735 111L742 118L735 125L728 118Z" fill="#d6b252"/>
+  <text x="735" y="143" text-anchor="middle" fill="#d5c7a3" font-family="monospace" font-size="12" letter-spacing="3">BUILD · LEARN · EXPERIMENT · REPEAT</text>
+  <g font-family="monospace" text-anchor="middle">
+    <text x="586" y="184" fill="#e0bd60" font-size="12">AI ENGINEERING</text><text x="586" y="202" fill="#c2baa6" font-size="10">LLMs · RAG · EVALUATION</text>
+    <text x="748" y="184" fill="#e0bd60" font-size="12">BACKEND</text><text x="748" y="202" fill="#c2baa6" font-size="10">APIs · DATA · DISTRIBUTED</text>
+    <text x="906" y="184" fill="#e0bd60" font-size="12">SYSTEMS</text><text x="906" y="202" fill="#c2baa6" font-size="10">CACHING · INFRA · DEVOPS</text>
+  </g>
+  <rect width="1200" height="360" fill="url(#pixels)" opacity=".55"/>
 </svg>
