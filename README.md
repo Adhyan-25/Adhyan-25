@@ -1,6 +1,6 @@
 <!-- Dark fantasy / pixel-art profile banner -->
 <p align="center">
-  <img src="profile-banner.svg" alt="ADHYAN — dark fantasy pixel-art banner featuring a knight, ruined bridge, crossed swords, golden rune and glowing tree; AI engineering, backend and distributed systems" width="100%" />
+  <img src="profile-banner.svg?v=2" alt="ADHYAN — dark fantasy pixel-art banner featuring a knight, ruined bridge, crossed swords, golden rune and glowing tree; AI engineering, backend and distributed systems" width="100%" />
 </p>
 
 <p align="center">
