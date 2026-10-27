@@ -1,61 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-<title id="title">ADHYAN — Dark fantasy pixel art</title>
-<desc id="desc">Pixel-art fantasy ruins, a lone knight, a broken bridge, a glowing golden tree, a circular rune and swords above the ADHYAN title, in a dark GitHub profile banner.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="300" viewBox="0 0 1600 300" role="img" aria-labelledby="title desc">
+<title id="title">ADHYAN — dark fantasy pixel-art banner</title>
+<desc id="desc">An ultra-wide, dark pixel-art fantasy banner inspired by Elden Ring: a lone knight at left, ruined castles and a stone bridge, a glowing golden tree at right, a circular rune and crossed swords above ADHYAN, with gold text on charcoal.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05090b"/><stop offset=".55" stop-color="#111713"/><stop offset="1" stop-color="#251d10"/></linearGradient>
- <linearGradient id="gold"><stop stop-color="#f4d77c"/><stop offset="1" stop-color="#a77a25"/></linearGradient>
- <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#d5bd72" opacity=".25"/></pattern>
- <pattern id="pix" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8V8" fill="none" stroke="#c7a84d" stroke-opacity=".1"/></pattern>
- <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05090b"/><stop offset=".5" stop-color="#101613"/><stop offset="1" stop-color="#241b0d"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#f3d878"/><stop offset="1" stop-color="#9c7024"/></linearGradient>
+ <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".7" fill="#d5bd72" opacity=".2"/></pattern>
+ <pattern id="pixels" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H8V8" fill="none" stroke="#d3b45a" stroke-opacity=".15" stroke-width=".6"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<rect width="1200" height="380" fill="url(#bg)"/><rect width="1200" height="380" fill="url(#dots)"/>
-<!-- moon and distant gothic skyline -->
-<circle cx="185" cy="65" r="28" fill="#b9a66d" opacity=".14"/><circle cx="185" cy="65" r="22" fill="none" stroke="#c6b27a" stroke-opacity=".45"/>
-<path d="M0 245L70 170L125 224L190 135L244 228L330 175L410 244L520 185L600 239L700 166L770 231L870 173L970 237L1080 155L1200 226V380H0Z" fill="#121714"/>
-<g fill="#070b0c" stroke="#62532f" stroke-opacity=".5">
- <path d="M0 260V174H16V138H30V174H45V153H58V260Z"/><path d="M65 260V205H83V160H98V190H112V260Z"/>
- <path d="M150 253V195H168V149H183V181H197V253Z"/><path d="M222 258V201H240V164H254V185H268V258Z"/>
- <path d="M820 254V185H836V146H852V178H866V254Z"/><path d="M886 256V207H903V167H917V190H932V256Z"/>
- <path d="M1040 252V184H1056V132H1072V174H1088V151H1103V252Z"/><path d="M1110 258V205H1128V166H1144V192H1160V258Z"/>
+<rect width="1600" height="300" fill="url(#bg)"/><rect width="1600" height="300" fill="url(#dots)"/>
+<circle cx="265" cy="48" r="24" fill="#c4b27b" opacity=".15"/><circle cx="265" cy="48" r="19" fill="none" stroke="#bba76a" stroke-opacity=".4"/>
+<!-- layered misty hills -->
+<path d="M0 205L95 144L160 189L250 105L318 195L425 139L520 205L630 145L740 205L850 130L955 198L1060 139L1160 196L1270 110L1390 196L1490 125L1600 183V300H0Z" fill="#151a15"/>
+<!-- blocky ruined towers -->
+<g fill="#080c0d" stroke="#65552f" stroke-opacity=".42" stroke-width="1.5">
+<path d="M0 220V140H14V104H28V139H42V118H56V220Z"/><path d="M64 222V169H81V132H96V155H110V222Z"/><path d="M165 220V153H182V99H198V139H213V121H228V220Z"/><path d="M240 220V173H258V137H272V158H286V220Z"/>
+<path d="M1175 220V161H1190V124H1205V154H1220V220Z"/><path d="M1242 220V135H1258V91H1275V129H1290V109H1305V220Z"/><path d="M1372 220V158H1388V112H1404V146H1420V220Z"/><path d="M1460 220V144H1476V91H1492V129H1508V108H1524V220Z"/><path d="M1530 220V171H1546V132H1562V154H1578V220Z"/>
 </g>
-<!-- golden tree at right -->
-<circle cx="1040" cy="75" r="100" fill="#d9a936" opacity=".17" filter="url(#glow)"/>
-<g fill="none" stroke-linecap="square">
- <path d="M1040 248L1040 172L1012 128L980 98M1040 192L1072 146L1090 102M1040 158L1061 112L1056 61M1017 136L1018 91L1001 62M1040 178L1000 161L976 132M1044 171L1082 166L1111 132" stroke="#d8a83e" stroke-width="6" opacity=".75"/>
- <path d="M1040 248L1040 172L1012 128L980 98M1040 192L1072 146L1090 102M1040 158L1061 112L1056 61M1017 136L1018 91L1001 62M1040 178L1000 161L976 132M1044 171L1082 166L1111 132" stroke="#ffeb9c" stroke-width="1.5"/>
+<!-- radiant pixel tree -->
+<circle cx="1352" cy="63" r="105" fill="#d9a936" opacity=".18" filter="url(#glow)"/>
+<g fill="none" stroke-linecap="square"><path d="M1350 226L1350 139L1315 96L1280 70M1350 163L1390 115L1413 74M1350 139L1375 91L1372 43M1321 105L1325 64L1306 40M1350 185L1302 164L1275 133M1352 174L1401 162L1434 128" stroke="#d9a83c" stroke-width="7" opacity=".78"/><path d="M1350 226L1350 139L1315 96L1280 70M1350 163L1390 115L1413 74M1350 139L1375 91L1372 43M1321 105L1325 64L1306 40M1350 185L1302 164L1275 133M1352 174L1401 162L1434 128" stroke="#ffeb9b" stroke-width="1.5"/></g>
+<g fill="#e8c65c"><rect x="1269" y="65" width="8" height="8"/><rect x="1293" y="42" width="6" height="6"/><rect x="1314" y="22" width="7" height="7"/><rect x="1348" y="12" width="7" height="7"/><rect x="1381" y="22" width="8" height="8"/><rect x="1405" y="43" width="6" height="6"/><rect x="1431" y="65" width="8" height="8"/><rect x="1447" y="93" width="6" height="6"/><rect x="1251" y="108" width="6" height="6"/><rect x="1410" y="125" width="7" height="7"/></g>
+<!-- stone bridge -->
+<path d="M365 222Q760 183 1165 222L1165 235Q760 199 365 236Z" fill="#28271f" stroke="#92753a" stroke-opacity=".75"/>
+<g fill="none" stroke="#75603a" stroke-width="4"><path d="M440 222V252M490 217V248M1035 216V248M1090 220V253"/><path d="M560 214Q590 245 620 212M700 204Q735 239 770 204M850 207Q880 239 910 209"/></g>
+<!-- foreground -->
+<path d="M0 246L130 225L245 249L360 230L495 252L630 229L770 251L910 226L1040 249L1175 224L1320 250L1450 226L1600 245V300H0Z" fill="#060a0b"/>
+<path d="M0 270L230 263L440 277L690 264L920 278L1170 263L1390 277L1600 267" fill="none" stroke="#8c733a" stroke-opacity=".35" stroke-width="2"/>
+<!-- lone cloaked knight -->
+<g transform="translate(120 142)">
+<path d="M27 22Q8 29 6 50L0 91L23 83L43 111L73 103L59 63Q57 37 42 22Z" fill="#070b0c" stroke="#76613b" stroke-width="2"/><path d="M18 37L-7 87L21 79L42 104L53 73L39 40Z" fill="#2a1c13"/><path d="M22 22Q17 2 34 -3Q50 1 46 23L39 32L24 31Z" fill="#090d0e" stroke="#b39a58" stroke-width="1.5"/><path d="M30 34L51 68L47 103" fill="none" stroke="#bca15b" stroke-width="2"/><path d="M-5 86L-10 130M-15 130H-3" stroke="#d1bd80" stroke-width="2"/><path d="M52 45L70 11L73 6" fill="none" stroke="#bba66d" stroke-width="3"/>
 </g>
-<g fill="#e9c85c"><rect x="969" y="91" width="7" height="7"/><rect x="990" y="56" width="5" height="5"/><rect x="1012" y="37" width="7" height="7"/><rect x="1042" y="26" width="6" height="6"/><rect x="1068" y="49" width="6" height="6"/><rect x="1094" y="71" width="7" height="7"/><rect x="1110" y="105" width="5" height="5"/><rect x="1082" y="125" width="6" height="6"/><rect x="951" y="128" width="5" height="5"/></g>
-<!-- ruined stone bridge across the mist -->
-<path d="M350 259Q610 218 900 258L900 270Q610 232 350 271Z" fill="#28271e" stroke="#92753a" stroke-opacity=".7"/>
-<g fill="none" stroke="#766139" stroke-width="4"><path d="M400 263V292M440 257V289M820 254V287M860 257V292"/><path d="M500 255Q520 282 540 255M650 245Q675 276 700 246M740 247Q760 274 780 250"/></g>
-<!-- foreground mist and rocky shore -->
-<path d="M0 303L100 277L205 306L310 285L420 312L540 287L680 313L810 284L925 308L1050 280L1200 305V380H0Z" fill="#070b0b"/>
-<path d="M0 335L220 325L390 342L590 327L770 345L980 326L1200 338" fill="none" stroke="#88703b" stroke-opacity=".35" stroke-width="2"/>
-<!-- knight on left -->
-<g transform="translate(94 192)">
- <path d="M26 22Q10 29 7 49L0 94L22 84L42 116L70 106L59 65Q57 37 42 22Z" fill="#080b0c" stroke="#76613b" stroke-width="2"/>
- <path d="M18 37L-7 89L21 80L41 107L52 74L39 40Z" fill="#2a1c13"/>
- <path d="M22 22Q17 2 34 -3Q50 1 46 23L39 32L24 31Z" fill="#090d0e" stroke="#b39a58" stroke-width="1.5"/>
- <path d="M30 34L51 68L47 103" fill="none" stroke="#bca15b" stroke-width="2"/>
- <path d="M-5 86L-10 137M-15 137H-3" stroke="#d1bd80" stroke-width="2"/>
- <path d="M52 45L70 11L73 6" fill="none" stroke="#bba66d" stroke-width="3"/>
-</g>
-<!-- central ring sigil -->
-<g transform="translate(630 64)" fill="none" stroke="#d7b451">
- <circle r="37" stroke-opacity=".85" stroke-width="2"/><circle r="27" stroke-opacity=".7"/><path d="M0 -51V51M-45 0H45M-31 -31L31 31M31 -31L-31 31" stroke-opacity=".8"/>
- <path d="M0 -47L7 -33L0 -22L-7 -33Z M0 47L7 33L0 22L-7 33Z M-43 0L-29 -7L-18 0L-29 7Z M43 0L29 -7L18 0L29 7Z" fill="#d7b451" stroke="none"/>
-</g>
-<!-- crossed swords above the name -->
-<g stroke="#d9c18a" stroke-width="3" stroke-linecap="square" fill="none">
- <path d="M560 39L602 104M550 45L568 34M558 52L570 44M593 91L608 82"/>
- <path d="M700 39L658 104M710 45L692 34M702 52L690 44M667 91L652 82"/>
-</g>
-<g fill="#d7b451"><path d="M556 32L562 20L565 39Z"/><path d="M704 32L698 20L695 39Z"/></g>
-<!-- title -->
-<text x="630" y="145" text-anchor="middle" fill="#f0d985" font-family="Georgia,serif" font-size="55" font-weight="bold" letter-spacing="7">ADHYAN</text>
-<path d="M456 160H804" stroke="url(#gold)" stroke-width="1.5"/><path d="M630 153L637 160L630 167L623 160Z" fill="#d7b451"/>
-<text x="630" y="185" text-anchor="middle" fill="#e1d2aa" font-family="monospace" font-size="12" letter-spacing="3">BUILD · LEARN · EXPERIMENT · REPEAT</text>
-<text x="630" y="212" text-anchor="middle" fill="#d8b85c" font-family="monospace" font-size="12" letter-spacing="1.5">AI ENGINEERING  ·  BACKEND  ·  DISTRIBUTED SYSTEMS</text>
-<text x="630" y="233" text-anchor="middle" fill="#bfb69e" font-family="monospace" font-size="11" letter-spacing="1">RAG  ·  VECTOR SEARCH  ·  LLM EVALUATION  ·  LLMOPS</text>
-<rect width="1200" height="380" fill="url(#pix)"/>
+<!-- ring sigil and crossed swords above title -->
+<g transform="translate(800 56)" fill="none" stroke="#d7b451"><circle r="35" stroke-width="2"/><circle r="25"/><path d="M0 -48V48M-43 0H43M-30 -30L30 30M30 -30L-30 30" stroke-opacity=".85"/></g>
+<g stroke="#d9c18a" stroke-width="3" stroke-linecap="square" fill="none"><path d="M738 24L778 91M728 30L746 19M736 37L748 29M769 78L784 69"/><path d="M862 24L822 91M872 30L854 19M864 37L852 29M831 78L816 69"/></g>
+<g fill="#d7b451"><path d="M734 17L740 6L743 25Z"/><path d="M866 17L860 6L857 25Z"/></g>
+<text x="800" y="142" text-anchor="middle" fill="#f0d985" font-family="Georgia,serif" font-size="54" font-weight="bold" letter-spacing="8">ADHYAN</text>
+<path d="M610 153H990" stroke="url(#gold)" stroke-width="1.5"/><path d="M800 146L807 153L800 160L793 153Z" fill="#d7b451"/>
+<text x="800" y="177" text-anchor="middle" fill="#e1d2aa" font-family="monospace" font-size="12" letter-spacing="3">BUILD · LEARN · EXPERIMENT · REPEAT</text>
+<text x="800" y="204" text-anchor="middle" fill="#d8b85c" font-family="monospace" font-size="12" letter-spacing="1.5">AI ENGINEERING  ·  BACKEND  ·  DISTRIBUTED SYSTEMS</text>
+<text x="800" y="224" text-anchor="middle" fill="#c7bda4" font-family="monospace" font-size="11" letter-spacing="1">RAG  ·  VECTOR SEARCH  ·  LLM EVALUATION  ·  LLMOPS</text>
+<rect width="1600" height="300" fill="url(#pixels)"/>
 </svg>
