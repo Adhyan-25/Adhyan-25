@@ -96,6 +96,17 @@ A personal finance and relocation-advice web app concept.
 
 A terminal-inspired portfolio presenting my projects, skills, and background.
 
+<!-- Contribution snake -->
+## Contribution Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Adhyan-25/Adhyan-25/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" width="100%" />
+  </picture>
+</p>
+
 ## Currently Exploring
 
 - Building an end-to-end RAG application with source citations and a reproducible evaluation dataset.
